@@ -51,7 +51,7 @@
     font-size: 13px;
     padding-bottom: 10px;
 }
-.column__submenu a :hover{
+.column__submenu a:hover{
     color: red;
 }
 hr {
@@ -74,7 +74,7 @@ span {
     display: flex;
     width: 72%;
     height:  50px;
-    margin-top: 55px; 
+    margin-top: 75px; 
     flex-direction: column;
     flex-wrap: wrap
 }
@@ -89,7 +89,7 @@ span {
 }
 .last {
     width: 95%;
-    height: 50px;
+    height: 100px;
     display: flex;
     margin: auto;
     padding-left: 40px;
@@ -100,7 +100,7 @@ span {
     display: flex;
     float: left;
 }
-.left i{
+.last__left i{
     padding-right: 9px;
 }
 .last__righ {
@@ -111,10 +111,10 @@ span {
     padding-left: 20px;
     font-size: 17px;
 }
-.last__left .need {
+.need{
     font-size: large;
 }
-.last__left i {
+.fill i {
     font-size: 200%;
     border-top-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -123,6 +123,11 @@ span {
 .last__righ a{
     color: black;
    font-weight: 600;
+}
+input{
+    width: 18%;
+    height: 40%;
+    padding: 6px;
 }
 button {
     width: 6%;
@@ -134,14 +139,4 @@ button:hover {
     background: rgb(150, 143, 228);
     border: 1px 1px rgb(98, 176, 210);
     cursor: pointer;
-}
-input{
-    width: 18%;
-    height: 40%;
-    padding: 6px;
-}
-.fill i {
-    font-size: 200%;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
 }
